@@ -108,6 +108,7 @@ These Event IDs provide insight into the activity and status of Microsoft Defend
 
 Event IDs that I find useful.
 
+* **1149:** a Remote Desktop Services (RDS) event that is logged when an RDP connection successfully reaches the server
 * **325:** A new database is created by the database engine.
 * **327:** A newly created database is detached by the database engine and marked ready to use.
 * **7036:** A service change state ( "entered the running state" or "entered the stopped state." )

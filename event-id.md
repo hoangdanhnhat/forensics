@@ -103,6 +103,7 @@ These Event IDs provide insight into the activity and status of Microsoft Defend
 * **1012:** An item in quarantine could not be deleted.
 * **1015:** Suspicious behavior was detected.
 * **1119:** A critical error occurred while taking action.
+* **5007:** Microsoft Defender Antivirus Configuration has changed
 
 ## Others
 

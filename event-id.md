@@ -113,4 +113,5 @@ Event IDs that I find useful.
 * **325:** A new database is created by the database engine.
 * **327:** A newly created database is detached by the database engine and marked ready to use.
 * **7036:** A service change state ( "entered the running state" or "entered the stopped state." )
+* **7045:** A new service was installed in the system
 * **4, 9, 10, 300, 303:** NTFS mount and dismount events.

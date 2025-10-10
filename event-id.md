@@ -11,7 +11,12 @@ This document provides a summary of critical Windows Event IDs, categorized for 
 * **1:** Process creation
 * **7:** Image loaded, records when a process loads a DLL or executable into its memory. This can help identify DLL injection attacks.
 * **8:** CreateRemoteThread: A key indicator of compromise (IOC), this event logs when one process creates a thread in another process. This technique is commonly used by malware to inject code and evade detection.
+* **19:** WmiEventFilter activity detected, critical log for detecting the setup of WMI persistence
 * **25:** Process Tampering: Detects process hollowing or herpaderping attacks, where a legitimate process is manipulated by malware.
+
+### Network connection
+
+* **3:** Logs all TCP and UDP connections made by processes on the machine. It includes the source and destination IP addresses, ports, and the process responsible for the connection. This is invaluable for identifying command and control (C2) communications.
 
 ### File system and Registry activity
 

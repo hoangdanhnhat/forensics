@@ -4,6 +4,21 @@ This document provides a summary of critical Windows Event IDs, categorized for 
 
 ***
 
+## Sysmon-Operational Logs
+
+### Process and Thread activities
+
+* **1:** Process creation
+* **7:** Image loaded, records when a process loads a DLL or executable into its memory. This can help identify DLL injection attacks.
+* **8:** CreateRemoteThread: A key indicator of compromise (IOC), this event logs when one process creates a thread in another process. This technique is commonly used by malware to inject code and evade detection.
+* **25:** Process Tampering: Detects process hollowing or herpaderping attacks, where a legitimate process is manipulated by malware.
+
+### File system and Registry activity
+
+* **11:** File created
+* **13:** Registry value set
+* **15:** FileCreateStreamHash: Tracks the creation of alternate data streams (ADS), a technique used by attackers to hide malicious code on the file system.
+
 ## Logon Events
 
 These events track user logon and logoff activities, providing visibility into who is accessing a system and when.

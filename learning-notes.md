@@ -13,3 +13,7 @@
 ## Acronym
 
 - AMSI : Antimalware Scan Interface
+
+## Registry
+
+- Emty NT-Hash is always 31D6CFeOd16ae931b73c59d7eOc089cO

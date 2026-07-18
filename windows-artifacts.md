@@ -40,6 +40,10 @@
 
 - NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU\*  : records files and folders that a user has opened or saved through Windows Common Dialog boxes (the standard Windows Open File and Save File dialogs).
 
+- NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU : store a per-user history of commands entered into the Windows Run dialog opened with Win + R
+
+- NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist : records programs and shortcuts launched through Windows Explorer’s graphical interface.
+  
 ## Disk Artifacts
 
 - Amcache.hve stores info about programs that have been run on the machine : C:\Windows\AppCompat\Programs

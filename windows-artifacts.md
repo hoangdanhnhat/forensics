@@ -14,6 +14,24 @@
 
 - Persistence: HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\SilentProcessExit : configure monitoring actions when a process terminates silently (exits without user interaction or crashes).
 
+###  SYSTEM hive
+
+- SYSTEM\Select\Current : Identify the CurrentControlSet
+
+- SYSTEM\CurrentContro1Set\Control\Timezone\TimeZoneInformation : Identify the timezone
+
+- SYSTEM\CurrentControlSet\Control\FileSystem : Is the last access timestamp for files on or off?
+
+- SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName : Identify the computer name
+
+- SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces : Identify the network interfaces and their IP addresses
+
+- SYSTEM\CurrentControlSet\Services\LanmanServer\Shares : Identify the shares of the system and their configuration
+
+### SOFTWARE hive
+
+- SOFTWARE\Microsoft\WindowsNT\CurrentVersion\NetworkList\Signatures\Unmanaged and SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles : Identify network profile , then use wigle.net to locate the position
+
 ## Disk Artifacts
 
 - Amcache.hve stores info about programs that have been run on the machine : C:\Windows\AppCompat\Programs

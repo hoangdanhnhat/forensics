@@ -32,6 +32,14 @@
 
 - SOFTWARE\Microsoft\WindowsNT\CurrentVersion\NetworkList\Signatures\Unmanaged and SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles : Identify network profile , then use wigle.net to locate the position
 
+### NTUSER hive
+
+- ntuser.dat\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery [enumvalues] : Windows Explorer search history
+
+- NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs : records files and folders that a user has recently opened or accessed through Windows Explorer / shell interactions
+
+- NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU\*  : records files and folders that a user has opened or saved through Windows Common Dialog boxes (the standard Windows Open File and Save File dialogs).
+
 ## Disk Artifacts
 
 - Amcache.hve stores info about programs that have been run on the machine : C:\Windows\AppCompat\Programs

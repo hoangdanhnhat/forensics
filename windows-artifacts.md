@@ -53,3 +53,13 @@
 - Jump Lists located at C:\Users\user\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations store artifacts for proof of file access, tracking deleted files,...
 
 - The hash for files that was marked malicious by Windows Defender can be found at C:\ProgramData\Microsoft\Windows Defender\Support\
+
+### Shell Item Analysis (LNK files)
+
+- The user's recent folder (Users/username/AppData/Roaming/Microsoft/Windows/Recent) contains LNK files that are automatically added when a user opens a non-executable file via explorer.exe or via another GUI-based program running in explorer.
+One file open --> two LNK files created: LNK file of the actual file being opened and LNK file of the parent folder contains the file
+When a file first open , the modification timestamp and the creation timestamp are the same . If the user open the same file later , the modification time will be updated --> File first opened = Creation time ; File last opened = Last modification timestamp
+
+- Jump Lists show application-related access to files or destinations
+
+- ShellBags show folder navigation through Explorer

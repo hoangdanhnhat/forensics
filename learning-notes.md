@@ -17,3 +17,7 @@
 ## Registry
 
 - Emty NT-Hash is always 31D6CFeOd16ae931b73c59d7eOc089cO
+
+## Misc
+
+- rdpclip.exe purpose: RDPClip is a program that enables "copy and paste" from a remote desktop session (RDP) that has been established on the system; it is tied to an active remote desktop connection and, other than event logs, identifying RDPCLIP.EXE is a key indicator of an RDP session used in intrusion cases and various internal investigations.
